@@ -1,0 +1,11 @@
+--- /dev/null
++++ b/patches/eglibc/ports-2_13/011-shlib-versions-gnueabihf.patch
+@@ -0,0 +1,8 @@
++--- a/ports/sysdeps/arm/shlib-versions	2006-08-17 03:23:58.000000000 +0200
+++++ b/ports/sysdeps/arm/shlib-versions	2014-11-01 13:46:35.277679031 +0100
++@@ -1,4 +1,5 @@
++ arm.*-.*-linux-gnueabi	DEFAULT			GLIBC_2.4
++ 
+++arm.*-.*-linux-gnueabihf	ld=ld-linux-armhf.so.3
++ arm.*-.*-linux-gnueabi	ld=ld-linux.so.3
++ arm.*-.*-linux.*	ld=ld-linux.so.2

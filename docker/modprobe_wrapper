@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "x$1" = "x-va" ]; then
+	shift
+	for i in "$@"; do
+		/sbin/modprobe -v "$i"
+	done
+else
+	exec /sbin/modprobe "$@"
+fi

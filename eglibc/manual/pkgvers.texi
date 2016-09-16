@@ -1,0 +1,2 @@
+@set PKGVERSION (crosstool-NG 1.20.0) 
+@set REPORT_BUGS_TO <http://www.eglibc.org/issues/>

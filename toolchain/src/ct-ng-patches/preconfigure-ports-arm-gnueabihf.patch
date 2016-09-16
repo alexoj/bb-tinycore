@@ -1,0 +1,14 @@
+--- /dev/null
++++ b/patches/eglibc/ports-2_13/010-preconfigure-ports-arm-gnueabihf.patch
+@@ -0,0 +1,11 @@
++--- a/ports/sysdeps/arm/preconfigure	2010-12-06 21:43:02.000000000 +0100
+++++ b/ports/sysdeps/arm/preconfigure	2014-04-02 15:48:45.998538103 +0200
++@@ -2,7 +2,7 @@
++ arm*)
++ 	base_machine=arm
++ 	case $config_os in
++-	linux-gnueabi)
+++	linux-gnueabi*)
++ 		machine=arm/eabi/$machine
++ 		if [ "${CFLAGS+set}" != "set" ]; then
++ 		  CFLAGS="-g -O2"
