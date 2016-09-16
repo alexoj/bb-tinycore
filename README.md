@@ -19,7 +19,7 @@ To build the project, have Docker installed and type:
 
 Full documentation for the project is available under `docs/report.pdf`
 
-Any code written by me is licensed under GPLv2, any other projects used are
+Any code written by me is licensed under GPLv2, all other projects used are
 under their respective licenses. Please check their websites for details.
 
 Note that as I do not hold the hardware in my possession anymore, I am
