@@ -3,9 +3,9 @@
 This project is a migration of TinyCore to the ARM development boards
 BeagleBone Black and BeagleBoard xM.
 
-It was developed by me, Alejandro Ojeda Gutiérrez <alex@x3y.org>,
+It was developed by me, Alejandro Ojeda Gutiérrez \<<alex@x3y.org>\>,
 as a final degree project for the University of Seville, under the supervision
-of professor Daniel Cagigas Muñiz <http://personal.us.es/dcagigas>.
+of professor Daniel Cagigas Muñiz \<<http://personal.us.es/dcagigas>\>.
 
 To build the project, have Docker installed and type:
 
